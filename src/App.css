@@ -97,26 +97,74 @@ input:focus, textarea:focus, select:focus {
   text-align: center;
 }
 
+.SearchBar:focus {
+  border-style: solid;
+  border-color: #1e90ff;
+  border-width: 2px;
+}
+
+.ThreeDots {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.Links {
+  visibility: visible;
+}
+
 @media (max-width:1280px) {
   .SearchBar {
-    border-width: 0px;
-    border-style: solid;
-    border-radius: 50px;
     width: 20vw;
-    height: 2.5vh;
-    text-align: center;
+    height: 4.5vh;
   }
 }
 
 @media (max-width:768px) {
-  /* hambuger menu */
+  .SearchBar {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+
+  .ThreeDots {
+    visibility: visible;
+    width: inherit;
+    height: inherit;
+  }
+
+  .Links {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
 }
 
 .CodeSample {
   background-color: #1e90ff;
 }
 
+.Home {
+  margin: 0;
+  padding-right: 30vw;
+}
+
+.Home h1 {
+  font-size: 2.125rem;
+}
+
 .Home hr {
   margin: 0;
   width: 25%
+}
+
+@media (max-width:1280px) {
+  .Home {
+    margin: 0;
+    padding: 4vw;
+  }
+}
+
+@media (max-width:768px) {
+  
 }

@@ -1,7 +1,7 @@
 import React from "react";
-import "../App.css"
-import { Link } from "react-router-dom";
-import SearchBar from "./SearchBar";
+import ThreeDots from "./ThreeDots";
+import Links from "./Links";
+import "../App.css";
 
 class NavBar extends React.Component {
     constructor(props) {
@@ -17,20 +17,8 @@ class NavBar extends React.Component {
                 </div>
                 <div className="Navbar-container-right">
                     {/* wrote list backwards because of my bad css */}
-                    <ul>
-                        <li>
-                            <Link to="/install">Install</Link>
-                        </li>
-                        <li>
-                            <Link to="/docs">Docs</Link>
-                        </li>
-                        <li>
-                            <Link to="/">Home</Link>
-                        </li>
-                        <li>
-                        <SearchBar placeholder="Quick Search"/>
-                        </li>
-                    </ul>
+                    <Links className="Links" />
+                    <ThreeDots className="ThreeDots" />
                 </div>
             </nav>
         );

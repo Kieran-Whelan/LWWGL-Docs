@@ -8,7 +8,14 @@ function Home () {
           </div>
             <hr />
           <div>
-            <p>LWWGL stands for lightweight web game library. It's a game library I made with javascript for html canvas games. LWWGL contains a collection of Objects and helper functions for creating 2D browser games without writing thr boring boilerplate code</p>
+            <p>LWWGL stands for lightweight web game library. It's a game library I made with javascript for html canvas games. LWWGL contains a collection of Objects and helper functions for creating 2D browser games without writing the boring boilerplate code</p>
+          </div>
+          <div>
+              <h1>Why use LWWGL?</h1>
+          </div>
+            <hr />
+          <div>
+            <p>LWWGL stands for lightweight web game library. It's a game library I made with javascript for html canvas games. LWWGL contains a collection of Objects and helper functions for creating 2D browser games without writing the boring boilerplate code</p>
           </div>
         </div>
     );

@@ -4,7 +4,6 @@ import Home from './pages/Home';
 import Install from './pages/Install';
 import Docs from './pages/Docs';
 import NavBar from './components/NavBar';
-import SearchBar from './components/SearchBar';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -17,7 +16,6 @@ function App() {
           <div className='App-content'>
             <div className='App-container'>
               <div className='App-container-left'>
-                <SearchBar placeholder="Quick Search"/>
               </div>
               <div className='App-container-right'>
                 <Routes>

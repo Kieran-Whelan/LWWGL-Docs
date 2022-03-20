@@ -1,48 +1,19 @@
+:root {
+  cursor: pointer;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+}
+
 .App {
   text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  font-size: 1.25rem;
-  color: white;
-}
-
-.App-header h1 {
-  float: left;
-  margin: 0;
-  margin-left: 5vw;
-  font-size: 2.5rem;
-}
-
-.App-header ul {
-  margin: 0;
-  margin-right: 7.5vw;
-}
-
-.App-header li {
-  list-style: none;
-  display: inline;
-  margin: 0;
-  padding-left: 1vw;
-  padding-right: 1vw;
-  float: right;
-}
-
-.App-header a {
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.App-header a:hover {
-  color: #1e90ff;
-}
-
 .App-content {
   background-color: #ffffff;
+  margin-left: 1vw;
+  margin-right: 1vw;
 }
 
 .App-footer {
@@ -55,8 +26,77 @@
 
 .App-container-left {
   flex: 20%;
+  padding-right: 1.25%;
 }
 
 .App-container-right {
   flex: 80%;
+  padding-left: 1.25%;
+}
+
+.Navbar {
+  background-color: #282c34;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.25rem;
+  color: white;
+}
+
+.Navbar ul {
+  margin: 0;
+  margin-right: 7.5vw;
+}
+
+.Navbar li {
+  list-style: none;
+  margin: 0;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  float: right;
+}
+
+.Navbar h1 {
+  float: left;
+  margin: 0;
+  margin-left: 5vw;
+  font-size: 2.5rem;
+  vertical-align: middle;
+}
+
+.Navbar a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.Navbar a:hover {
+  color: #1e90ff;
+}
+
+.Navbar-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.Navbar-container-left {
+  flex: 20%;
+  align-self: center;
+}
+
+.Navbar-container-right {
+  flex: 80%;
+  align-self: center;
+}
+
+.SearchBar {
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 50px;
+  width: 200px;
+  height: 20px;
+  text-align: center;
+}
+
+.CodeSample {
+  background-color: #1e90ff;
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import "../App.css"
 
 class SearchBar extends React.Component {
     constructor(props) {
@@ -8,9 +9,9 @@ class SearchBar extends React.Component {
 
     render() {
         return (
-            <diV>
-                <input type={"text"} placeholder={this.placeholder}></input>
-            </diV>
+            <div>
+                <input className="SearchBar" type={"text"} placeholder={this.placeholder}></input>
+            </div>
         );
     }
 }

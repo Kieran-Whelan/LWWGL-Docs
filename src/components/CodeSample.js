@@ -1,4 +1,5 @@
 import React from "react";
+import "../App.css";
 
 class CodeSample extends React.Component {
     constructor(props) {
@@ -7,9 +8,15 @@ class CodeSample extends React.Component {
     }
 
     render() {
-        return this.lines.map(line => (
-            <p>{line.name}</p>
-        ));
+        return (
+            <div className="CodeSample">
+                {
+                    this.lines.map(line => (
+                        <p>{line.name}</p>
+                    ))
+                }
+            </div>
+        );
     }
 }
 

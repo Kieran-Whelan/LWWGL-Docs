@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/LWWGL-docs/static/css/main.e123df4e.css",
+    "main.js": "/LWWGL-docs/static/js/main.56ffa12b.js",
+    "index.html": "/LWWGL-docs/index.html",
+    "main.e123df4e.css.map": "/LWWGL-docs/static/css/main.e123df4e.css.map",
+    "main.56ffa12b.js.map": "/LWWGL-docs/static/js/main.56ffa12b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e123df4e.css",
+    "static/js/main.56ffa12b.js"
+  ]
+}

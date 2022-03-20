@@ -11,6 +11,12 @@
   color: white;
 }
 
+.App-header h1 {
+  float: left;
+  margin: 0;
+  margin-left: 5vw;
+}
+
 .App-header ul {
   margin-right: 7.5vw;
 }
@@ -26,6 +32,7 @@
 
 .App-header a {
   text-decoration: none;
+  color: #ffffff;
 }
 
 .App-content {

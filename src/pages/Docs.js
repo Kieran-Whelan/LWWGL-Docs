@@ -1,9 +1,12 @@
 import React from "react";
+import CodeSample from "../components/CodeSample";
+
+const lines = [{name: "<body>"}, {name: "</body>"}];
 
 function Docs () {
     return (
         <div>
-            <h1>Introduction</h1>
+            <CodeSample lines={lines}/>
         </div>
     );
 }

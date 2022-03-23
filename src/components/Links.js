@@ -10,6 +10,7 @@ class Links extends React.Component {
     }
 
     render() {
+        {/* wrote list backwards because of my bad css */}
         return (
             <div className={this.className}>
                 <ul>

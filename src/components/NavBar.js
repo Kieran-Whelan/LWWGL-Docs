@@ -16,9 +16,10 @@ class NavBar extends React.Component {
                     <h1>{this.title}</h1>
                 </div>
                 <div className="Navbar-container-right">
-                    {/* wrote list backwards because of my bad css */}
                     <Links className="Links" />
-                    <ThreeDots className="ThreeDots" />
+                    <button className="Navbar-menu-btn">
+                        <ThreeDots className="ThreeDots" />
+                    </button>
                 </div>
             </nav>
         );

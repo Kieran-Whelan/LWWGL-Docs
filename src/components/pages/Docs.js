@@ -1,5 +1,5 @@
 import React from "react";
-import CodeSample from "../components/CodeSample";
+import CodeSample from "../CodeSample";
 
 const lines = [{name: "<body>"}, {name: "</body>"}];
 

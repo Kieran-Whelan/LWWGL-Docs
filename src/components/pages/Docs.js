@@ -1,12 +1,12 @@
 import React from "react";
-import CodeSample from "../CodeSample";
+import CodeSample from "../CodeSample"
 
-const lines = [{name: "<body>"}, {name: "</body>"}];
+const text = "<div></div>";
 
 function Docs () {
     return (
         <div>
-            <CodeSample lines={lines}/>
+            <CodeSample text = {text}/>
         </div>
     );
 }

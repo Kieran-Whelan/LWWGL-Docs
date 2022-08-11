@@ -1,21 +1,19 @@
 import React from "react";
-import "../App.css";
+import SyntaxHighlighter from "react-syntax-highlighter/dist/esm/default-highlight";
+import style from "react-syntax-highlighter/dist/esm/styles/hljs/a11y-dark";
+import docco from 'react-syntax-highlighter/dist/esm/styles/hljs/docco';
 
 class CodeSample extends React.Component {
     constructor(props) {
         super(props);
-        this.lines = props.lines;
+        this.text = props.text;
     }
 
     render() {
         return (
-            <div className="CodeSample">
-                {
-                    this.lines.map(line => (
-                        <p>{line.name}</p>
-                    ))
-                }
-            </div>
+            <SyntaxHighlighter language="html" style = {docco}>
+                {this.text}
+            </SyntaxHighlighter>
         );
     }
 }

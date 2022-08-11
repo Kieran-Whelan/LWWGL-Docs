@@ -7,13 +7,40 @@ input:focus, textarea:focus, select:focus {
 }
 
 .App {
-  text-align: left;
+  background-color: #efefef;
+  text-align: center;
+  display: flex;
 }
 
 .App-content {
   background-color: #ffffff;
-  margin-left: 1vw;
-  margin-right: 1vw;
+  text-align: left;
+  margin-left: 22.5%;
+  margin-right: 22.5%;
+  flex: 55%;
+  display: flex;
+}
+
+.App-content-left {
+  flex: 30%;
+  background-color: #005162;
+  text-align: center;
+}
+
+.App-content-left .logo {
+  flex: 30%;
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 7vw;
+  width: 14vw;
+  height: 14vw;
+  margin-top: 2.5vh;
+  margin-bottom: 2.5vh;
+  scale: 0.8;
+}
+
+.App-content-right {
+  flex: 70%;
 }
 
 .App-footer {
@@ -101,6 +128,7 @@ input:focus, textarea:focus, select:focus {
   width: 10vw;
   height: 2.5vh;
   text-align: center;
+  margin-bottom: 2.5vh;
 }
 
 .SearchBar:focus {

@@ -1,7 +1,11 @@
 import React from "react";
 import CodeSample from "../CodeSample"
 
-const text = "<div></div>";
+const text = 
+`<div>
+    <span>
+    </span>
+</div>`
 
 function Docs () {
     return (

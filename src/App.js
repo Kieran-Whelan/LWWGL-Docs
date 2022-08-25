@@ -1,8 +1,5 @@
 import React from 'react';
 import './App.css';
-import Home from './components/pages/Home';
-import Install from './components/pages/Install';
-import Docs from './components/pages/Docs';
 import NavBar from './components/NavBar';
 import LWWGL from './res/LWWGL.png'
 import { BrowserRouter as Router } from "react-router-dom";
@@ -21,8 +18,8 @@ function App() {
               <SearchBar placeholder={placeholder} />
             </div>
             <hr />
-            <div>
-              <h1>About</h1>
+            <div className='Nav'>
+              <h1 className='Nav-title'>General</h1>
             </div>
           </div>
           <div className='App-content-right'>

@@ -1,2 +1,2 @@
-# LWWGL-docs
-Documentation for my LWWGL game library
+# LWWGL-Docs
+Documentation for my LWWGL game library made with ReactJs.
